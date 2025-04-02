@@ -1,3 +1,5 @@
+/*
+
 div{
     width: 250px;
     height: 250px;
@@ -63,4 +65,81 @@ p::first-letter{
 
 .padre p{
     color:maroon;
+}
+*/
+
+p#unico.foo.bar
+{
+    color: greenyellow !important ;
+}
+p#unico.foo.baz{
+    color: purple;
+}
+
+.main {
+    color: rebeccapurple;
+    border: 2px solid #ccc;
+    padding: 1em;
+}
+
+.special {
+    color: black;
+    font-weight: bold;
+}
+
+.rectangulo {
+    width: 450px;
+    height: 250px;
+    background-color: blue;
+}
+.caja {
+    width: 50%;
+    height: 250px;
+    background-color: cornflowerblue;
+}
+
+
+.padre {
+    width: 50%;
+    height: 250px;
+    background-color: magenta;
+}
+.hijo {
+    width: 50%;
+    height: 50%;
+    background-color: moccasin;
+}
+.hijo p{
+    font-size:large;
+}
+
+
+
+body{
+    margin:0;
+}
+
+
+div{
+    
+    width: 250px;
+    height: 250px;
+    background-color: moccasin;
+
+    /*
+    padding-right: 25 px;
+    padding-left: 25 px;
+    padding-top: 25 px;
+    padding-bottom: 25px;
+*/
+    padding: 70px;
+
+    border: 40px solid deeppink;
+    margin: 50px;
+/*
+    border-left: 40px solid springgreen;
+    border-right: 40px solid springgreen;
+    border-top: 40px solid springgreen;
+    border-bottom: 40px solid springgreen;
+*/
 }
